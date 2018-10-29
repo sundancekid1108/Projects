@@ -22,7 +22,7 @@ import java.util.Vector;
  * 
  * 출   력 : 첫째 줄에 최대 사용할 수 있는 회의 수를 출력하여라.
  * 
- * 풀이방법 : 끝나는 시간을 기준으로 회의를 오름차순으로 정렬한 다음 그리디 알고리즘을 사용하여 문제를 풀 수 있다,.
+ * 풀이방법 : 끝나는 시간을 기준으로 회의를 오름차순으로 정렬한 다음 그리디 알고리즘을 사용하여 문제를 풀 수 있다.
  * 끝나는 시간이 같다면 시작 시간이 빠른 것을 우선으로 한다. 
  */
 public class baekjoon_1931 {
@@ -38,7 +38,7 @@ public class baekjoon_1931 {
 			meetings.add(new Meeting(startTime, endTime));
 		}
 		
-		Collections.sort(meetings); // 회의시간이 짧은 순으로 앞으로 정렬함
+		Collections.sort(meetings);
 		
 		countMeeting(meetingNum, meetings);
 		
@@ -81,7 +81,7 @@ class Meeting implements Comparable<Meeting> {
 	}
 	
 	@Override
-	public int compareTo(Meeting meeting) { // compareTo : 2개의 두 문자열을 비교하고 int 형 값을 반환하는 메소
+	public int compareTo(Meeting meeting) { 
 		if(this.endTime < meeting.getEndTime()) {
 			return -1;
 		}else if(this.endTime == meeting.getEndTime()) {

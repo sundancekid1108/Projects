@@ -22,11 +22,11 @@ import java.util.Scanner;
  */
 public class baekjoon_1260 {
 	
-	public static int N, M, V; // 정점의 개수 N, 간선의 개수 M, 탐색을 시작할 정점의 번호 V
+	public static int N, M, V; 
 	public static int x, y;
 	
 	public static int[][] graph = new int[1001][1001];
-	public static boolean visited[] = new boolean[10001];	// 방문 완료한 정점의 목
+	public static boolean visited[] = new boolean[10001];	
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -35,8 +35,6 @@ public class baekjoon_1260 {
 		M = sc.nextInt();
 		V = sc.nextInt();
 		
-		// 두 정점을 2차원 배열에 저장
-		// 양방향 그래프이므로 graph[x][y] = graph[y][x] = 1 로 저장
 		for(int i = 1; i <= M; i++) {
 			x = sc.nextInt();
 			y = sc.nextInt();
@@ -45,18 +43,17 @@ public class baekjoon_1260 {
 		
 		DFS(V);
 		
-		// 방문한 정점 리스트 초기화 
 		for(int i = 1; i <= N; i++) {
 			visited[i] = false;
 		}
 		
 		System.out.println();
+		
 		BFS(V);
 		
 		sc.close();
 	}
 
-	// 깊이 우선 탐색
 	public static void DFS(int V) {
 		
 		System.out.print(V + " ");
@@ -69,24 +66,18 @@ public class baekjoon_1260 {
 		}
 	}
 	
-	// 너비 우선 탐색  
 	public static void BFS(int V) {
 		Queue<Integer> queue = new LinkedList<Integer>();
 		int out;
-		
-		// 큐에 시작점 추가
 		queue.offer(V);
 		visited[V] = true;
 		System.out.print(V + " ");
 		
-		// 큐에값이 없을 때까지 실행함
 		while(!queue.isEmpty()) {
-			// 큐에서 값을 꺼냄
 			out = queue.poll();
 			
 			for(int i = 1; i <= N; i++) {
 				if(graph[out][i] == 1 && visited[i] == false) {
-					// 방문안한 점을 찾으면 큐에 저장
 					queue.offer(i);
 					visited[i] = true;
 					System.out.print(i + " ");
