@@ -67,7 +67,7 @@
  * 그래프 기초 개념
  * BFS, DFS를 이용한 탐색 문제 풀이 : 백준 1260번 (https://www.acmicpc.net/problem/1260)
  
- ## 2018.28
+ ## 2018.10.28
  ### Git Pull Request/Merge 실습 및 탐욕 알고리즘
  * Git fork 및 Pull Request/Merge 실습
  * 탐욕 알고리즘(greedy algorithm) : 백준 1931번 (https://www.acmicpc.net/problem/1931)
