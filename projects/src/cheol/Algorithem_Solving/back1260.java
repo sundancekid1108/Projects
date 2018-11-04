@@ -1,4 +1,4 @@
-
+package cheol;
 /*
 *백준 1260문제
 * 그래프를 DFS로 탐색한 결과와 BFS로 탐색한 결과를 출력하는 프로그램을 작성하시오.
@@ -11,7 +11,7 @@ import java.io.*;
 import java.util.*;
 
 
-public class study {
+public class back1260 {
 
     public static int[][] graph;
     public static boolean visited[]; // T,F로 구분
@@ -61,4 +61,4 @@ public class study {
 
 
 
-}
+} 
