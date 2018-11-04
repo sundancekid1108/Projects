@@ -69,7 +69,7 @@
  
  ## 2018.10.28
  ### Git Pull Request/Merge 실습 및 탐욕 알고리즘
- * Git fork 및 Pull Request/Merge 실습
+ * Git fork 및 Pull Request/Merge 실습[https://github.com/Bootcamp-for-Goodemployees/projects/blob/master/projects/src/young/md/git_study.md]
  * 탐욕 알고리즘(greedy algorithm) : 백준 1931번 (https://www.acmicpc.net/problem/1931)
  
       
