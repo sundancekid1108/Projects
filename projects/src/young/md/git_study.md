@@ -3,7 +3,7 @@
 
 ## team project 를 fork한 respository와 동기화하기
 
-'''
+```
 $ git remote -v 
 origin "https://github.com/YOUR_USERNAME/YOUR_FORk.git"
 
@@ -19,4 +19,4 @@ $ git checkout master
 $ git merge upstream/master
 
 $ git pull origin master
-'''
+```
