@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de79dbb3-c130-4945-a9b8-0d7b964fb162" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../._back1260.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../._back1406.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../._back2750.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back10799.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back11656.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back11726.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back1260.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back1406.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back1463.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back2441.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back2747.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back2750.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pygamestudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pygamestudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/study.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pygamestudy$study.coverage" NAME="study Coverage Results" MODIFIED="1541163078058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/pygamestudy$study.coverage" NAME="study Coverage Results" MODIFIED="1541424574817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="715392293">
@@ -63,39 +54,44 @@
     <session id="1099118685">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="26" />
+          <entry key="py" value="1299" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="26" />
+          <entry key="Python" value="1299" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/study.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="80" column="37" lean-forward="true" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+            <state relative-caret-position="264">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
               <folding>
                 <element signature="e#10#23#0" expanded="true" />
               </folding>
@@ -114,7 +110,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>key</find>
+      <find>keys</find>
       <find>playpos</find>
+      <find>s</find>
+      <find>playerpos</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,10 +134,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="340" />
-    <option name="y" value="-1337" />
+    <option name="x" value="-1" />
+    <option name="y" value="-1085" />
     <option name="width" value="1280" />
-    <option name="height" value="1293" />
+    <option name="height" value="999" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -161,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,6 +190,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,25 +261,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="340" y="-1337" width="1280" height="1293" extended-state="0" />
+    <frame x="-1" y="-1085" width="1280" height="999" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18659128" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20759289" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.70678514" visible="true" weight="0.20815986" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.39966694" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7003231" visible="true" weight="0.20727673" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49676898" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.29321486" side_tool="true" visible="true" weight="0.20815986" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2996769" side_tool="true" visible="true" weight="0.20727673" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4983845" weight="0.32830188" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49945354" weight="0.32894737" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49596122" weight="0.32855567" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -306,8 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/study.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="80" column="37" lean-forward="true" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+        <state relative-caret-position="264">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
           <folding>
             <element signature="e#10#23#0" expanded="true" />
           </folding>
