@@ -196,15 +196,15 @@ while running:
             elif event.key == pygame.K_d:
                 keys[3] = False
         
-        #player 움직이기
-        if keys[0] == True:
-            playpos[1] = playpos[1] - 5
-        elif keys[2] == True:
-            playpos[1] = playpos[1] + 5 #아래로 내려감
-        elif keys[1] == True:
-            playpos[0] = playpos[0] - 5 # 왼쪽이동
-        elif keys[3] == True:
-            playpos[0] += 5 #오른
+    #player 움직이기
+    if keys[0] == True:
+        playpos[1] = playpos[1] - 10
+    elif keys[2] == True:
+        playpos[1] = playpos[1] + 10 #아래로 내려감
+    elif keys[1] == True:
+        playpos[0] = playpos[0] - 10 # 왼쪽이동
+    elif keys[3] == True:
+        playpos[0] += 10 #오른
 
         
 
